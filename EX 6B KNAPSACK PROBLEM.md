@@ -21,10 +21,10 @@ To demonstrate a python program using dynamic programming for 0/1 knapsack probl
 6. Return the value at dp[n][W] — the max value you can carry.
 
 ## Program:
-Developed by: Kishore S
-
-Register Number:  212222240050
-
+```
+Developed by: RAJARAMAN V 
+Register Number:  212223110038
+```
 ```c
 def knapSack(W, wt, val, n):
     dp=[[-1]*(W+1) for _ in range(len(val)+1)]
